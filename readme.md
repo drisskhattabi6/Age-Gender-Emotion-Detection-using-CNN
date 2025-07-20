@@ -9,19 +9,18 @@ A Tkinter-based GUI application that detects faces and predicts **age**, **gende
 ```
 
 ├── Notebooks/    # Jupyter notebooks for training each model
-│   ├── 2.1\_train\_age\_model.ipynb
-│   ├── 2.2\_train\_gender\_model.ipynb
-│   ├── 2.3\_train\_emotion\_model.ipynb
-│   └── 3.1\_Pred\_Final.ipynb
+│   ├── 2.1_train_age_model.ipynb
+│   ├── 2.2_train_gender_model.ipynb
+│   ├── 2.3_train_emotion_model.ipynb
+│   └── 3.1_Pred_Final.ipynb
 ├── app.py       # Main Tkinter application entry point.
 ├── imgs/       # Example images to test the “Image Detection” mode.
 └── models/     # Pretrained Keras models and OpenCV Haar cascade for face detection.
-    ├── age\_model\_pretrained.h5
-    ├── emotion\_model\_pretrained.h5
-    ├── gender\_model\_pretrained.h5
-    └── haarcascade\_frontalface\_default.xml
+    ├── age_model_pretrained.h5
+    ├── emotion_model_pretrained.h5
+    ├── gender_model_pretrained.h5
+    └── haarcascade_frontalface_default.xml
 ````
-
 
 ---
 
@@ -31,9 +30,9 @@ A Tkinter-based GUI application that detects faces and predicts **age**, **gende
    - OpenCV Haar Cascade (`haarcascade_frontalface_default.xml`).
 
 2. **Model Training**  
-   - **2.1_train_age_model.ipynb**: CNN trained on Facial-age & UTKFace  
-   - **2.2_train_gender_model.ipynb**: CNN trained on UTKFace  
-   - **2.3_train_emotion_model.ipynb**: CNN trained on CT+  
+   - **2.1_train_age_model.ipynb**: CNN trained on **Facial-age & UTKFace**
+   - **2.2_train_gender_model.ipynb**: CNN trained on **UTKFace**
+   - **2.3_train_emotion_model.ipynb**: CNN trained on **CT+**  
 
 3. **Final Prediction**  
    - **3.1_Pred_Final.ipynb**: notebook demonstrating inference on static images.
@@ -80,7 +79,7 @@ Once downloaded, preprocess and train the notebooks in the **Notebooks/** folder
 2. **Install dependencies**
 
    ```bash
-   pip install opencv-python-headless tensorflow pillow numpy
+   pip install opencv_contrib_python opencv-python-headless tensorflow keras pillow numpy
    ```
 
 3. **Verify files**
