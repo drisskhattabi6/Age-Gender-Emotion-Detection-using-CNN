@@ -1,0 +1,7 @@
+cashe/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd   
+*zip
+
