@@ -3,5 +3,6 @@ cashe/
 __pycache__/
 *.pyo
 *.pyd   
-*zip
-
+*.zip
+*.pdf
+training_models/

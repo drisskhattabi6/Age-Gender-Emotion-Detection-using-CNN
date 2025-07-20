@@ -73,9 +73,9 @@ Once downloaded, preprocess and train the notebooks in the **Notebooks/** folder
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/age-gender-emotion-app.git
-   cd age-gender-emotion-app
-````
+   git clone https://github.com/drisskhattabi6/Age-Gender-Emotion-Detection-using-CNN.git
+   cd Age-Gender-Emotion-Detection-using-CNN
+    ```
 
 2. **Install dependencies**
 
@@ -111,11 +111,6 @@ python app.py
 
 ## Screenshots
 
-*Add your own screenshots here:*
-
-<img src="imgs/family.jpg" alt="Image Detection Example" width="300"/>  
-*Static image detection*
-
-> *Replace with actual annotated screenshots.*
-
-"# Age-Gender-Emotion-Detection-using-CNN" 
+<img src="imgs/screenshots/screen1.png" alt="Image Detection Example" width="500"/>  
+<br>
+<img src="imgs/screenshots/screen2.png" alt="Image Detection Example" width="500"/>  

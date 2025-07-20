@@ -6,9 +6,9 @@ from keras.models import load_model
 from PIL import Image, ImageTk
 
 # Load models
-age_model = load_model('./1.1_age_input_output/output/age_model_pretrained.h5')
-gender_model = load_model('./1.2_gender_input_output/output/gender_model_pretrained.h5')
-emotion_model = load_model('./1.3_emotion_input_output/output/emotion_model_pretrained.h5')
+age_model = load_model('./models/age_model_pretrained.h5')
+gender_model = load_model('./models/gender_model_pretrained.h5')
+emotion_model = load_model('./models/emotion_model_pretrained.h5')
 
 # Labels
 age_ranges = ['1-2', '3-9', '10-20', '21-27', '28-45', '46-65', '66-116']
@@ -16,7 +16,7 @@ gender_ranges = ['male', 'female']
 emotion_ranges = ['positive', 'negative', 'neutral']
 
 # Load Haar Cascade
-face_cascade = cv2.CascadeClassifier('./1.4_test_input/cv2_cascade_classifier/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('./models/haarcascade_frontalface_default.xml')
 
 # ------------------ Detection Functions ------------------
 
